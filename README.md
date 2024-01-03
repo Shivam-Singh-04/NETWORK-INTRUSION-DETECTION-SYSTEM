@@ -3,7 +3,7 @@ With the enormous growth of computer networks usage and the huge increase in the
 Therefore, the role of Intrusion Detection Systems (IDSs), as special-purpose devices to detect anomalies and attacks in the network, is becoming more important. 
 Our task to build network intrusion detection system to detect anomalies and attacks in the network. There are two problems:
 Binomial Classification: Activity is normal or attack
-Multinomial classification: Activity is normal or DOS or PROBE or R2L or U2R 
+Multinomial classification: Activity is normal or DOS or PROBE or R2L or U2R.
 The attack classes are:
 1) DOS: denial-of-service
 2) R2L: unauthorized access from a remote machine, e.g. guessing password
@@ -12,7 +12,7 @@ The attack classes are:
 
 The dataset used was NSL-KDD dataset and Machine Learning Models used were NAÏVE BAYES, DESCISION TREE, LOGISTIC REGRESSION and SUPPORT VECTOR MACHINE (SVM)
 
-The steps we will follow are:
+The steps we will follow:
 1) LOADING THE DATASET
 2) DATA PRE-PROCESSING
 3) SPLITING THE DATA INTO TRAIN & TEST
